@@ -76,7 +76,8 @@ body{  background-color: #000;
     display: inline-block; 
     left: 135px; 
     position: absolute; top: 50%; 
-    z-index: -1; 
+    z-index: -1;
+    transform: translateY(-50%);
 }
 .about-me{ 
     padding: 200px 0px; 
