@@ -414,6 +414,9 @@ footer{
     color: #fff;
     font-size: 20px;
 }
+.copyright a{
+    text-decoration: none;
+}
 .copyright h6 span{
     color: red;
 }
