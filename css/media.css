@@ -208,6 +208,7 @@
     }
     .follow-me a{
         margin: 5px 6px;
+        font-size: 22px;
     }
     .loving-things .inner {
         width: 50%;
@@ -225,14 +226,14 @@
         font-size: 16px;
     }
     .follow-me a{
-        font-size: 20px;
+        font-size: 17px;
     }
     .follow-me b {
         font-size: 13px;
         margin-right: -10px;
     }
     .follow-me b::after{
-        left: 94px;
+        left: 95px;
     }
     .about-content h3{
         font-size: 17px;
