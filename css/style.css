@@ -3,6 +3,7 @@ body{  background-color: #000;
         font-family: Poppins,
         sans-serif; 
 }
+/* header */
 .nav-link{
     color: rgb(255, 255, 255); 
     border: 2px solid rgba(255, 0, 0, 0); 
@@ -20,6 +21,8 @@ body{  background-color: #000;
     border: 2px solid red;
      border-radius: 10px; 
 }
+
+/* heading */
 .heading {
     padding: 50px 0px; 
     text-align: center; 
@@ -50,6 +53,8 @@ body{  background-color: #000;
     background: red;
     border: 2px solid rgba(255, 255, 255, 0); 
 }
+
+/* follow-me */
 .follow-me { 
     text-align: center;
  }
@@ -69,16 +74,21 @@ body{  background-color: #000;
      background-color: rgba(224, 0, 0, 0.73); 
      padding: 5px 10px; 
 }
-.follow-me b::after { content: ""; 
-    height: 3px; 
-    width: 30px; 
-    background-color: white; 
-    display: inline-block; 
-    left: 135px; 
-    position: absolute; top: 50%; 
+.follow-me b::after {
+    content: "";
+    height: 3px;
+    width: 30px;
+    background-color: white;
+    display: inline-block;
+    left: 135px;
+    position: absolute;
+    top: 50%;
     z-index: -1;
     transform: translateY(-50%);
 }
+
+
+/* about-me */
 .about-me{ 
     padding: 200px 0px; 
 }
@@ -133,6 +143,8 @@ body{  background-color: #000;
     background-color: red;
     border: 2px solid transparent;
 }
+
+
 /* skill-section */
 .skill-section{padding-bottom: 70px;}
 .skill-section h3{
@@ -295,7 +307,6 @@ body{  background-color: #000;
 .card-body .page{
     font-size: 25px;
     color: #fff;
-    /* margin: 0px 5px; */
     width: 15%;
 }
 .card-body .page:hover{
@@ -304,7 +315,6 @@ body{  background-color: #000;
 .card-body .repo{
     font-size: 30px;
     color: #fff;
-    /* margin: 0px 5px; */
     display: inline-block;
     width: 15%;
 }
@@ -407,6 +417,8 @@ body{  background-color: #000;
     font-size: 17px;
     font-weight: 600;
 }
+
+/* footer */
 footer{
     padding: 30px 0;
 }
