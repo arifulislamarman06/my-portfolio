@@ -17,9 +17,10 @@ let lightMode = white.addEventListener("click", function(){
     for(let i = 0; i < navLink.length; i++){
         navLink[i].style.color = "black";
     }
+    const bd = document.querySelector(".bd").style.color= "black";
     const resumeColorNav = document.querySelector(".color").style.color = "white";
     const img = document.getElementById("img").src="images/arman-dark.png";
-    body.style.backgroundColor = "white";
+    body.style.backgroundColor = "#f5f5f57a";
     const typeJs = document.querySelector(".text").style.color = "black";
     // let lang = document.querySelectorAll(".languages");
     // for(let i = 0; i < lang.length; i++){
@@ -66,7 +67,7 @@ let darkMode = black.addEventListener("click", function(){
         navLink[i].style.color = "white";
     }
     const img = document.getElementById("img").src="images/arman-white.png";
-    body.style.backgroundColor = "black";
+    body.style.backgroundColor = "#18191A";
     const typeJs = document.querySelector(".text").style.color = "white";
     // let lang = document.querySelectorAll(".languages");
     // for(let i = 0; i < lang.length; i++){
@@ -76,6 +77,7 @@ let darkMode = black.addEventListener("click", function(){
     for(let i = 0; i < borderCss.length; i++){
         borderCss[i].style.border = "1.5px solid white";
     }
+    const bd = document.querySelector(".bd").style.color= "white";
     let cardInner = document.querySelectorAll(".card-inner");
     for(let i = 0; i < cardInner.length; i++){
         cardInner[i].style.border = "1px solid red";
