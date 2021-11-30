@@ -9,6 +9,11 @@ showButton.addEventListener("click", function (){
    showButton.style.display = "none";
 });
 
+const borderRadius = document.querySelectorAll(".border-color");
+    for(let i = 0; i < borderRadius.length; i++){
+        borderRadius[i].style.borderRadius = "2.5px";
+};
+
 // lightMode code 
 let white = document.getElementById("white");
 let lightMode = white.addEventListener("click", function(){
