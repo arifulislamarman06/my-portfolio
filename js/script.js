@@ -103,7 +103,13 @@ let darkMode = black.addEventListener("click", function(){
         })
     }
 
-})   
+});
+
+
+//automated copyright year
+const year = new Date().getFullYear();
+let date = `&copy; ${year}. All Rights Reserved by <a href="https://www.facebook.com/ariful.i.arman/" target="_blank"><span>Ariful Islam Arman</span></a>`;
+document.querySelector(".footerCopy").innerHTML = date;
 
 
 
