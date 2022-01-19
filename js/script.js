@@ -111,8 +111,26 @@ const year = new Date().getFullYear();
 let date = `&copy; ${year}. All Rights Reserved by <a href="https://www.facebook.com/ariful.i.arman/" target="_blank"><span>Ariful Islam Arman</span></a>`;
 document.querySelector(".footerCopy").innerHTML = date;
 
+const skillSection = document.getElementById("skill");
+const progressBars = document.querySelectorAll(".progress-bar");
 
+function showProgress() {
+    progressBars.forEach(progressBar=> {
+        const bar = progressBar.dataset.progress;
+        progressBar.style.opacity = 1;
+        progressBar.style.width = `${bar}%`;
+    });
+}
+window.addEventListener('scroll',()=>{
+    const sectionPos = skillSection.getBoundingClientRect().top;
+    const screenPos = window.innerHeight;
 
+    if (sectionPos < screenPos) {
+        showProgress();
+    } else {
+       hideProgress(); 
+    }
+})
 
 //junk-files
 //  if(darkMode = true){
